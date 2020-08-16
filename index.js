@@ -27,3 +27,8 @@ function signIn() {
     signup.catch(e => alert(e.message));
     alert("Signed In" + email);
 }
+
+function signOut() {
+    auth.signOut();
+    alert("Signed Out");
+}
