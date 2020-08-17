@@ -25,10 +25,20 @@ function signIn() {
     var password = document.getElementById("password");
     const signup = auth.signInWithEmailAndPassword(email.value, password.value);
     signup.catch(e => alert(e.message));
-    alert("Signed In" + email);
+    //alert("Signed In" + email);
 }
 
 function signOut() {
     auth.signOut();
     alert("Signed Out");
 }
+
+auth.onAuthStateChanged(function(user) {
+    if (user) {
+        var email = user.email;
+        alert("Active User " + email);
+    } else {
+        alert("No Active User");
+    }
+
+});
