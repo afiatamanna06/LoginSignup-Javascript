@@ -22,3 +22,23 @@ h1 {
     height: 10px;
     background: black;
 }
+
+#email {
+    width: 70%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+#password {
+    width: 70%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
