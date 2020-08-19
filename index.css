@@ -86,3 +86,19 @@ h1 {
     color: white;
     background-color: #669999;
 }
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+}
+
+button:active {
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
